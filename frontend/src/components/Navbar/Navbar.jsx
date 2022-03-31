@@ -10,7 +10,13 @@ const Navbar = () => {
                 <img src={images.logo} alt="logo" />
             </div>
             <ul>
-                {['home', 'about', 'testimonials', 'works', 'skills', 'contact']}
+            {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                <li key={item}>
+                  <a href={`#${item}`}>
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
         </nav>
     )
