@@ -11,3 +11,9 @@
     position: fixed;
     z-index: 2;
 }
+
+.app__nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
