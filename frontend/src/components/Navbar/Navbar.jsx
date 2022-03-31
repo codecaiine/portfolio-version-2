@@ -9,6 +9,9 @@ const Navbar = () => {
             <div>
                 <img src={images.logo} alt="logo" />
             </div>
+            <ul>
+                {['home', 'about', 'testimonials', 'works', 'skills', 'contact']}
+            </ul>
         </nav>
     )
 }
