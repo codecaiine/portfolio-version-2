@@ -26,9 +26,12 @@ const [toggle, setToggle] = useState(false);
          <HiMenuAlt4 onClick={() => setToggle(true)} />
 
          {toggle && (
-           <motion.di>
+           <motion.div
+              whileInView={{ x: [300, 0] }}
+              transition={{ duration: 0.85, ease: 'easeOut' }}
+            >
 
-           </motion.di>
+           </motion.div>
            )}
 
         </div>
