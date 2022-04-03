@@ -22,7 +22,7 @@ const [toggle, setToggle] = useState(false);
           ))}
         </ul>
         
-        <div className="app_nav-menu">
+        <div className="app__nav-menu">
          <HiMenuAlt4 onClick={() => setToggle(true)} />
 
          {toggle && (
