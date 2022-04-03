@@ -76,6 +76,7 @@
 .app__nav-menu{
     width: 35px;
     height: 35px;
+    margin: 10px 40px;
     border-radius: 50%;
     position: relative;
 
@@ -83,4 +84,9 @@
     justify-content:center;
     align-items:center;
     background: blue;
+
+    svg{
+        width: 70%;
+        height: 70%;
+    }
 }
