@@ -118,6 +118,18 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-direction: column;
+
+            li {
+                margin: 1rem;
+
+                a {
+                    color: gray;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+            }
         }
     }
 }
