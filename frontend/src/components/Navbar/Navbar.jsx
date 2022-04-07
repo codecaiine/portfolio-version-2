@@ -13,7 +13,7 @@ const [toggle, setToggle] = useState(false);
         <div className="app__nav-logo">
           <img src={images.logo} alt="logo" />
         </div>
-        <ul className="app__nav-link">
+        <ul className="app__nav-links">
           {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
