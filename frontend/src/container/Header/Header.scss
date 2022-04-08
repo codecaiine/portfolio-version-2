@@ -102,4 +102,10 @@ padding: 6rem 2rem 0rem;
     align-items: flex-start;
     height: 100%;
     margin-left: 1rem;
+
+    div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 }
