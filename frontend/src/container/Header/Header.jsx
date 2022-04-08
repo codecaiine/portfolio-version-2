@@ -28,6 +28,9 @@ const Header = () => {
           </div>
         </motion.div>
 
+        <motion.div></motion.div>
+        <motion.div></motion.div>
+
         </div>
         
     )
