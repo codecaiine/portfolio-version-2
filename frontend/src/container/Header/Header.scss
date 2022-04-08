@@ -86,6 +86,11 @@ padding: 6rem 2rem 0rem;
           font-size: 5rem;
         }
       }
-    
+
+      @media screen and (max-width: 1200px) {
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
 
 }
