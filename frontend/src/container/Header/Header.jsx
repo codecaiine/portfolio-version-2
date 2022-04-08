@@ -34,6 +34,9 @@ const Header = () => {
             className="app__header-img"
         >
          <img src={images.profile} alt="profile_bg" />
+         <motion.img>
+             
+         </motion.img>
 
         </motion.div>
         <motion.div></motion.div>
