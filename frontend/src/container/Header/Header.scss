@@ -131,6 +131,12 @@ padding: 6rem 2rem 0rem;
         width: 70px;
         height: 70px;
       }
-    
+
+      @media screen and (min-width: 2000px) {
+        div:nth-child(2) {
+          width: 400px;
+          height: 400px;
+        }
+    }    
     
 }
