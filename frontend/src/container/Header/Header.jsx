@@ -13,7 +13,7 @@ const Header = () => {
         >
         <div className="app__header-badge">
         <div className="badge-cmp app__flex">
-            
+          <span>👋</span>
         </div>
         </div>
 
