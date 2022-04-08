@@ -52,4 +52,8 @@ padding: 6rem 2rem 0rem;
 
   .app__header-badge {
     width: 100%;
-}
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+ }
