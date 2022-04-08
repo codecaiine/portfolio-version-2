@@ -6,7 +6,9 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <div> Header </div>
+        <motion.div>
+            
+        </motion.div>
     )
 }
 
