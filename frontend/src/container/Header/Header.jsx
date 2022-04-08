@@ -4,6 +4,10 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Header.scss';
 
+const scaleVariants = {
+
+};
+
 const Header = () => {
     return (
         <div className="app__header app__flex">
