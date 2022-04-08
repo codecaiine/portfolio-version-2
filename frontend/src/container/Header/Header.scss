@@ -24,4 +24,9 @@ padding: 6rem 2rem 0rem;
 @media screen and (min-width: 2000px) {
     padding-top: 8rem;
 }
+
+@media screen and (max-width: 1200px) {
+    flex-direction: column;
+}
+
 }
