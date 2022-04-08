@@ -4,8 +4,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-  
-    // disable the default padding styles
     .app__wrapper {
       padding: 0;
   
@@ -117,8 +115,6 @@
         height: 60%;
       }
     }
-  
-    // circles with different height & width
   
     div:nth-child(1) {
       width: 100px;
