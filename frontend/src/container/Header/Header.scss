@@ -148,4 +148,15 @@ padding: 6rem 2rem 0rem;
           height: 200px;
         }
       }
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+    
+        div {
+          margin: 1rem;
+        }
+      }
 }
