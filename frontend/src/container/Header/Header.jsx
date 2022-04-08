@@ -56,6 +56,7 @@ const Header = () => {
         <motion.div
             variants={scaleVariants}
             whileInView={scaleVariants.whileInView}
+            className="app__header-circles"
         >
 
         </motion.div>
