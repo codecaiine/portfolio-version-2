@@ -5,7 +5,9 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <div> Header </div>
+      <>
+         <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      </>
     )
 }
 
