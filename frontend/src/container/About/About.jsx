@@ -7,6 +7,9 @@ const About = () => {
     return (
         <> 
          <h2 className="head-text">I Know that <span>Clean Code</span> <br />means  <span>Good Code</span></h2>
+         <div className="app__profiles">
+
+         </div>
         </>
     )
 }
