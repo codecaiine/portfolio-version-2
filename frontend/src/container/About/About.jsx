@@ -19,7 +19,7 @@ const About = () => {
                 className="app__profile-item"
                 key={about.title + index}
                 >
-
+                <img src={about.imgUrl} alt={about.title} />
                 </motion.div>
             ))}
          </div>
