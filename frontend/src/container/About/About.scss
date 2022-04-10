@@ -26,10 +26,14 @@
       border-radius: 15px;
       object-fit: cover;
     }
-
+  
     @media screen and (min-width: 2000px) {
-        width: 370px;
-        margin: 2rem 4rem;
+      width: 370px;
+      margin: 2rem 4rem;
+  
+      img {
+        height: 320px;
       }
-}
+    }
+  }
   
