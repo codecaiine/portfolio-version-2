@@ -20,6 +20,7 @@ const About = () => {
                 key={about.title + index}
                 >
                 <img src={about.imgUrl} alt={about.title} />
+                <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
                 </motion.div>
             ))}
          </div>
