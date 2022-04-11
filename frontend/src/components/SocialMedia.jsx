@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsTwitter, BsInstagram } from 'react-icons/bs';
 
 const SocialMedia = () => {
     return (
@@ -6,4 +7,4 @@ const SocialMedia = () => {
     )
 }
 
-export default SocialMedia
+export default SocialMedia 
