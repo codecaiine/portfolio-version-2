@@ -5,3 +5,5 @@ const AppWrap = () => {
         <div> AppWrapp </div>
     )
 }
+
+export default AppWrap
