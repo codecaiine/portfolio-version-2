@@ -6,8 +6,6 @@ import { urlFor, client } from '../../client';
 
 const About = () => {
 
-    const abouts = [];
-
     const [abouts, setAbouts] = useState([]);
 
     useEffect(() => {
