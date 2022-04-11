@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavigationDots = () => {
+const NavigationDots = ({ active }) => {
     return (
       <div> NavigationDots </div>
     )
