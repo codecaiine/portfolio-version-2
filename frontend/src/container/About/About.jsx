@@ -10,6 +10,7 @@ const About = () => {
     const [abouts, setAbouts] = useState([]);
 
     useEffect(() => {
+      const query = '*[_type == "abouts"]';
 
     }, []);
 
