@@ -3,7 +3,7 @@ import { NavigationDots, SocialMedia } from '../components';
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
     return (
-        <div id={idName} >
+        <div id={idName} className={`app__container ${classNames}`}>
 
         </div>
     )
