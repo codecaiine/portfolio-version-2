@@ -5,3 +5,5 @@ const NavigationDots = () => {
       <div> NavigationDots </div>
     )
 }
+
+export default NavigationDots
