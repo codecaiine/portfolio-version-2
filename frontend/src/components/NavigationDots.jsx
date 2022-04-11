@@ -2,7 +2,8 @@ import React from 'react';
 
 const NavigationDots = ({ active }) => {
     return (
-      <div> NavigationDots </div>
+       <div className="app__navigation"> 
+       </div>
     )
 }
 
