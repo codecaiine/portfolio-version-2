@@ -6,5 +6,5 @@ export const client = sanityClient({
     dataset: 'production',
     apiVersion: '2022-02-01',
     useCdn: true,
-    token: '',
+    token: 'skSPSllZ4XLPx3p8zhOJNCZF51HI7ilj6itQbOmO1nXjTNCOuzZbTQm9PNlNJcedaNobcUV7er7GVQtlW0twomukEbYXtLZJnFikeLiOLBT2z7saF0N0sBjIMGOLkjyQOlz8O5lWTEwFLhbzUh4FHsQ0ZaFWDY1PjUWc6eZxMJvB7nRt5cMK',
 }); 
