@@ -8,7 +8,8 @@ import './Works.scss';
 
 const Works = () => {
     return (
-        <div> Works </div>
+        <> Works 
+        </>
     )
 }
 
