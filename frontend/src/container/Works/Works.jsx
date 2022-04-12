@@ -8,7 +8,8 @@ import './Works.scss';
 
 const Works = () => {
     return (
-        <> Works 
+        <> 
+          <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
         </>
     )
 }
