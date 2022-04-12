@@ -7,6 +7,10 @@ import { urlFor, client } from '../../client';
 import './Works.scss';
 
 const Works = () => {
+
+    
+  const handleWorkFilter = (item) => {}
+  
     return (
         <> 
           <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
