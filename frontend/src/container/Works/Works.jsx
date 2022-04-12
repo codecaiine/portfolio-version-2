@@ -11,17 +11,15 @@ const Works = () => {
         <> 
           <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
           <div className="app__work-filter">
-          {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
-          <div
-            key={index}
-            onClick={() => handleWorkFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}
-          >
-            {item}
-          </div>
-        ))}
-
-          </div>
+            {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+            <div
+                key={index}
+                onClick={() => handleWorkFilter(item)}
+            >
+    
+            </div>
+            ))}
+        </div>
         </>
     )
 }
